@@ -64,7 +64,8 @@ app.get('/customer/:id', function(req, res) {
   }
 });
 
-app.listen(port, function() {
-  console.log('Hey! The server is running on port ' + port);
+var server = app.listen(port, function() {
+  console.log('Hey! Our server is running on port ' + port);
 });
 
+module.exports = server;
