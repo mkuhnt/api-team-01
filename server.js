@@ -6,7 +6,7 @@ var _          = require('underscore');
 var customers = [
   {
     id: 0,
-    name: "Obelix",
+    name: "Öbelix",
     job: "Freund von Asterix"
   },{
     id: 1,
